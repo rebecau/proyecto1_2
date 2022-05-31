@@ -308,11 +308,9 @@ def Similitudes(d1,d2,d3):
   return similitud
 
 sim = Similitudes(m_d1,m_d2,m_d3)
-
+'''
 #for i in range(len(sim)):
   #print(sim[i])
-    
-'''
 sns.heatmap(sim)
 plt.title("Mapa de Calor")
 plt.show()
