@@ -311,6 +311,8 @@ sim = Similitudes(m_d1,m_d2,m_d3)
 
 #for i in range(len(sim)):
   #print(sim[i])
+    
+'''
 sns.heatmap(sim)
 plt.title("Mapa de Calor")
 plt.show()
@@ -372,3 +374,4 @@ data_with_clusters = data.copy()
 data_with_clusters['Clusters'] = identified_clusters 
 plt.scatter(data_with_clusters['title'],data_with_clusters['abstract'],c=data_with_clusters['Clusters'],cmap='rainbow')
 plt.title("Cluster")
+'''
