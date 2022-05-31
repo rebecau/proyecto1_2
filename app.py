@@ -35,9 +35,9 @@ import statsmodels.api as sm
 url = "https://raw.githubusercontent.com/rebecau/ML_PROYECTO1/main/ml_data.csv"
 df = pd.read_csv(url)
 
-title = df.iloc[:, 0]
-keyword = df.iloc[:, 1]
-abstract = df.iloc[:, 2]
+title = df.iloc[:2, 0]
+keyword = df.iloc[:2, 1]
+abstract = df.iloc[:2, 2]
 
 def Normalizacion(Documentos):
   for i in range(len(Documentos)):#NORMALIZACION ELIMINACION DE CARACTERES ESPECIALES Y MAYUSCULA
